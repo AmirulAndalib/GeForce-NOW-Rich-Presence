@@ -2,22 +2,20 @@
 ![nvidia](https://github.com/user-attachments/assets/f01b9e5e-4cf4-4178-b39e-8719590c5f7c)
 ![icons8-logotipo-de-la-discordia-128](https://github.com/user-attachments/assets/5c3b161c-b062-4430-93c0-4433c472ce87)
 
-A modular application that updates your Discord Rich Presence with the current game you're playing on GeForce NOW, including fetching the game's Steam AppID.
+This application enhances your Discord experience by updating your status with the current game you're playing on GeForce NOW. The script runs as a background process and clears your Discord status when you stop playing or close GeForce NOW.
 
-## Features
+Features
+--------
 
-- Detects the current game being played on GeForce NOW by monitoring window titles.
-- Fetches the Steam AppID for the detected game using the Steam Web API.
-- Updates Discord Rich Presence with game information and AppID.
-- Caches AppIDs to minimize API calls and improve performance.
-- Modular design for easy future enhancements.
-- Configurable settings via `config/config.json`.
-- Logging for monitoring application activity and errors.
+-   Automatically detects games running on GeForce NOW and updates Discord Rich Presence.
+-   Uses Steam Store to fetch game details and display the game icon.
+-   Clears the Discord status when GeForce NOW is inactive.
+-   Prevents multiple instances of the script from running simultaneously.
 
 ## Requirements
 
-- **Operating System:** Windows (support for macOS and Linux can be added).
-- **Python:** 3.11
+- **Operating System:** Windows (Incoming MAC and LINUX support)
+
 
 ## Installation
 
