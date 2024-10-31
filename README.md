@@ -26,6 +26,11 @@ Features
    ```bash
    git clone https://github.com/luisbrn/GeForceNOW-Discord-Rich-Presence.git
    cd GeForceNOW-Discord-Rich-Presence
+2. Deactivate Rich Presence on NVIDIA GeForce NOW.
+3. Go to https://discord.com/developers/applications, and create an app.
+4. Copy Application ID.
+5. Open the cloned repository folder and doublke on settings and paste your application ID there.
+6. 
 
 If you like it and feel is useful for you, support me if possible:
 
