@@ -15,7 +15,9 @@ Features
 ## Requirements
 
 - **Operating System:** Windows (Incoming MAC and LINUX support)
-
+## Screenshots
+![image](https://github.com/user-attachments/assets/7a784c98-6da0-4ee2-b6d9-075e4c64e36a)
+![Screenshot 2024-10-31 152405](https://github.com/user-attachments/assets/94b507d9-b751-4989-abad-7ebaa087cfb3)
 
 ## Installation
 
