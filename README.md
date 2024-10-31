@@ -1,5 +1,6 @@
 # GeForceNOW-Discord-Rich-Presence
-![e47fb330-ad6c-4965-8488-600dc8176f86 - Copy](https://github.com/user-attachments/assets/b38445fb-0ae5-4cdc-b553-17e2829158df)
+![nvidia](https://github.com/user-attachments/assets/f01b9e5e-4cf4-4178-b39e-8719590c5f7c)
+![icons8-logotipo-de-la-discordia-128](https://github.com/user-attachments/assets/5c3b161c-b062-4430-93c0-4433c472ce87)
 
 A modular application that updates your Discord Rich Presence with the current game you're playing on GeForce NOW, including fetching the game's Steam AppID.
 
