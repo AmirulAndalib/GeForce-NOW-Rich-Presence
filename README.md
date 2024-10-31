@@ -26,6 +26,11 @@ A modular application that updates your Discord Rich Presence with the current g
    ```bash
    git clone https://github.com/luisbrn/GeForceNOW-Discord-Rich-Presence.git
    cd GeForceNOW-Discord-Rich-Presence
+
+If you like it and feel is useful for you, support me if possible:
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/gbraad)
+
    
 ## License
 
