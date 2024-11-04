@@ -1,0 +1,5 @@
+{
+    "discord_client_id": "your_client_id",
+    "check_interval": 1.0,
+    "fallback_image": "fallback_image"
+}
