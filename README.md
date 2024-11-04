@@ -37,6 +37,9 @@ Features
 
    Notes: Use the image_downloader.exe to download images, this program looks at your cache file in config folder for the games already played.
 You can find logs for the programs created when the application runs.
+If you want it to run at start of windows create a task opening the Task Manager or Task Scheduler.
+Windows+R, type shell:startup and paste a shortcut of Discord GFNOW
+
 
 If you like it and feel is useful for you, support me if possible:
 
