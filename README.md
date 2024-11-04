@@ -27,7 +27,16 @@ Features
    git clone https://github.com/luisbrn/GeForceNOW-Discord-Rich-Presence.git
    cd GeForceNOW-Discord-Rich-Presence
 2. Deactivate Rich Presence on NVIDIA GeForce NOW.
+3. Create an application on https://discord.com/developers/applications/
+4. Open your new app, go to Rich Presence, upload the images of the "GFN Images" folder, save.
+5. Copy the Application ID.
+6. Open the Cloned repository folder.
+7. Double click on settings and paste the your ID.
+8. Save.
+9. Run the program "Discord GFNOW" and enjoy your new Rich presence.
 
+   Notes: Use the image_downloader.exe to download images, this program looks at your cache file in config folder for the games already played.
+You can find logs for the programs created when the application runs.
 
 If you like it and feel is useful for you, support me if possible:
 
