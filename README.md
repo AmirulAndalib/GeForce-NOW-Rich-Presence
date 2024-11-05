@@ -1,4 +1,4 @@
-# GeForceNOW-Discord-Rich-Presence
+#GeForce NOW Discord Rich Presence
 ![nvidia](https://github.com/user-attachments/assets/f01b9e5e-4cf4-4178-b39e-8719590c5f7c)
 ![icons8-logotipo-de-la-discordia-128](https://github.com/user-attachments/assets/5c3b161c-b062-4430-93c0-4433c472ce87)
 
