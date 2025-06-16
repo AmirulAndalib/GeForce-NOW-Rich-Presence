@@ -1,51 +1,76 @@
-# GeForce NOW Discord Rich Presence
-![nvidia](https://github.com/user-attachments/assets/f01b9e5e-4cf4-4178-b39e-8719590c5f7c)
-![icons8-logotipo-de-la-discordia-128](https://github.com/user-attachments/assets/5c3b161c-b062-4430-93c0-4433c472ce87)
+## GeForce NOW Discord Rich Presence v2.0
+![DGFN_tray](https://github.com/user-attachments/assets/25b5b049-7340-4312-b7bc-f0971847c358)
 
-This application enhances your Discord experience by updating your status with the current game you're playing on GeForce NOW. The script runs as a background process and clears your Discord status when you stop playing or close GeForce NOW.
 
-Features
---------
+This application updates your Discord status with the game you're currently playing on GeForce NOW. It runs in the background and clears your status when you stop playing or close GeForce NOW.
 
--   Automatically detects games running on GeForce NOW and updates Discord Rich Presence.
--   Uses Steam Store to fetch game details and display the game icon.
--   Clears the Discord status when GeForce NOW is inactive.
--   Prevents multiple instances of the script from running simultaneously.
+### Features
 
-## Requirements
+* Automatic game detection and Discord Rich Presence updates.
+* Fetches game details and icons from Steam Store.
+* **New:** Supports Russian, German, and Spanish game titles for detection.
+* Clears Discord status when inactive.
+* **New:** Prevents multiple script instances.
+* **New:** System tray icon for easy management and exit.
+* **New:** Option to auto-start with Windows via tray icon.
+* **New:** Customizable tray icon (`DGFN_tray.png`).
+* **New:** Improved image fitting; Discord uploads now expect PNG format.
 
-- **Operating System:** Windows (Incoming MAC and LINUX support)
+### Requirements
+
+* Windows OS
+* Discord account
+* GeForce NOW application
+
 ## Screenshots
-![image](https://github.com/user-attachments/assets/7a784c98-6da0-4ee2-b6d9-075e4c64e36a)
-![Screenshot 2024-10-31 152405](https://github.com/user-attachments/assets/94b507d9-b751-4989-abad-7ebaa087cfb3)
+![Captura de pantalla 2025-06-14 213124](https://github.com/user-attachments/assets/c5b9d5be-affd-49fb-8d7b-098b46cfea99)
+![Captura de pantalla 2025-06-14 213032](https://github.com/user-attachments/assets/98350c6f-1623-42e8-8614-e57b457b3238)
+![Captura de pantalla 2025-06-14 213105](https://github.com/user-attachments/assets/d38606d6-34c0-4999-91de-4cb426d9a966)
 
-## Installation
 
-1. **Clone the Repository:**
+### Installation & Setup
 
-   ```bash
-   git clone https://github.com/luisbrn/GeForceNOW-Discord-Rich-Presence.git
-   cd GeForceNOW-Discord-Rich-Presence
-2. Deactivate Rich Presence on NVIDIA GeForce NOW.
-3. Create an application on https://discord.com/developers/applications/
-4. Open your new app, go to Rich Presence, upload the images of the "images" folder, save. (Use the image_downloader.exe to download images, this fetches the images that app_cache has stored; app_cache is where it stores the gammes you have played.)
-5. Copy the Application ID.
-6. Open the Cloned repository folder.
-7. Double click on settings and paste the your ID.
-8. Save.
-9. Run the program "Discord GFNOW" and enjoy your new Rich presence.
+1.  **Clone the Repository:**
+    ```bash
+    git clone [https://github.com/luisbrn/GeForceNOW-Discord-Rich-Presence.git](https://github.com/luisbrn/GeForceNOW-Discord-Rich-Presence.git)
+    ```
+    (Or download and extract the ZIP.)
 
-   Notes: 
-You can find logs for the programs created when the application runs.
-If you want it to run at start of windows create a task, opening the Task Manager or Task Scheduler.
-Windows+R, type shell:startup and paste a shortcut of Discord GFNOW
+2.  **Discord Application Setup:**
+    * **Deactivate Rich Presence in GeForce NOW.**
+    * Go to [Discord Developer Portal](https://discord.com/developers/applications/), create a **New Application**, and **copy its Application ID**.
+    * Navigate to "Rich Presence" -> "Art Assets" in your Discord app. Upload a small placeholder PNG image (e.g., named `default`) and "Save Changes".
 
-If you like it and feel is useful for you, support me if possible:
+3.  **Configure Application ID:**
+    * Double-click `Settings.exe` in the repository folder.
+    * Paste your Discord **Application ID** into the "Discord Client ID" field.
+    * (Optional) Set "Refresh Interval" (e.g., `2` seconds).
+    * Click "Save Config".
 
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/luisbrn)
+4.  **Download Game Images & Upload to Discord:**
+    * Launch a few games on GeForce NOW while `Discord GFN.exe` is running to populate game data.
+    * Close `Discord GFN.exe`. Then, double-click `Image Downloader.exe`. This will download and process game images to the `downloaded_capsules` folder.
+    * Go back to Discord Developer Portal -> "Rich Presence" -> "Art Assets". **Upload the PNG images** from `downloaded_capsules` (e.g., `1091500.png`) using their respective AppIDs as names. Click "Save Changes".
 
-   
+5.  **Run the Program:**
+    * Double-click `Discord GFN.exe`. It will run in the system tray.
+    * **To auto-start with Windows:** Right-click the tray icon and select "Start at Windows Startup".
+
+Enjoy your new Rich Presence!
+
+**Notes:**
+* Logs are created in the `logs` folder.
+* You can customize the tray icon by replacing `assets/DGFN_tray.png`.
+
 ## License
 
 This project is licensed under the [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).
 
+**Important Notes on Usage:**
+* You are free to share and adapt this software for personal, non-commercial use.
+* You must provide appropriate attribution to the original author (luisbrn).
+* Commercial use of this software is not permitted under this license.
+
+If you like it and feel is useful for you, support me if possible:
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/luisbrn)
